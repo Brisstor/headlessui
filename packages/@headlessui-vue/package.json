@@ -1,5 +1,5 @@
 {
-  "name": "@headlessui/vue",
+  "name": "brisstor-@headlessui/vue",
   "version": "1.4.2",
   "description": "A set of completely unstyled, fully accessible UI components for Vue 3, designed to integrate beautifully with Tailwind CSS.",
   "main": "dist/index.js",
