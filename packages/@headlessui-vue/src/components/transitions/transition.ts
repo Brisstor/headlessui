@@ -132,6 +132,9 @@ function useNesting(done?: () => void) {
 let TransitionChildRenderFeatures = Features.RenderStrategy
 
 export let TransitionChild = defineComponent({
+  compatConfig: {
+    RENDER_FUNCTION: false,
+  },
   props: {
     as: { type: [Object, String], default: 'div' },
     show: { type: [Boolean], default: null },
@@ -348,6 +351,9 @@ export let TransitionChild = defineComponent({
 // ---
 
 export let TransitionRoot = defineComponent({
+  compatConfig: {
+    RENDER_FUNCTION: false,
+  },
   inheritAttrs: false,
   props: {
     as: { type: [Object, String], default: 'div' },

@@ -1,5 +1,5 @@
 {
-  "name": "headlessui",
+  "name": "brisstor-headlessui",
   "version": "0.0.0",
   "description": "Headless UI components for various libraries like React and Vue",
   "main": "index.js",
