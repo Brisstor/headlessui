@@ -68,6 +68,7 @@ export function useDescriptions({
 export let Description = defineComponent({
   compatConfig: {
     RENDER_FUNCTION: false,
+    INSTANCE_ATTRS_CLASS_STYLE: false,
   },
   name: 'Description',
   props: {

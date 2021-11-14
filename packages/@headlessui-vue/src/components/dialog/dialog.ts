@@ -67,6 +67,7 @@ let Missing = 'DC8F892D-2EBD-447C-A4C8-A03058436FF4'
 export let Dialog = defineComponent({
   compatConfig: {
     RENDER_FUNCTION: false,
+    INSTANCE_ATTRS_CLASS_STYLE: false,
   },
   name: 'Dialog',
   inheritAttrs: false, // Manually handling this
@@ -281,6 +282,7 @@ export let Dialog = defineComponent({
 export let DialogOverlay = defineComponent({
   compatConfig: {
     RENDER_FUNCTION: false,
+    INSTANCE_ATTRS_CLASS_STYLE: false,
   },
   name: 'DialogOverlay',
   props: {
@@ -325,6 +327,7 @@ export let DialogOverlay = defineComponent({
 export let DialogTitle = defineComponent({
   compatConfig: {
     RENDER_FUNCTION: false,
+    INSTANCE_ATTRS_CLASS_STYLE: false,
   },
   name: 'DialogTitle',
   props: {

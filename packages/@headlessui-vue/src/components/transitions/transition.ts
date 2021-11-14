@@ -134,6 +134,7 @@ let TransitionChildRenderFeatures = Features.RenderStrategy
 export let TransitionChild = defineComponent({
   compatConfig: {
     RENDER_FUNCTION: false,
+    INSTANCE_ATTRS_CLASS_STYLE: false,
   },
   props: {
     as: { type: [Object, String], default: 'div' },
@@ -353,6 +354,7 @@ export let TransitionChild = defineComponent({
 export let TransitionRoot = defineComponent({
   compatConfig: {
     RENDER_FUNCTION: false,
+    INSTANCE_ATTRS_CLASS_STYLE: false,
   },
   inheritAttrs: false,
   props: {
